@@ -2,6 +2,10 @@
 Fynd
 </h2>
 
+<h3 align="center">
+Simple product listing app with MVVM and Material theme
+</h3>
+
 <h4 align="center">
     Developed using MVVM and Material theme.
 </h4>
@@ -14,10 +18,6 @@ Fynd
 <h4 align="center">
     Used retrofit for accessing API.
 </h4>
-
-<h3 align="center">
-Simple product listing app with MVVM and Material theme
-</h3>
 
 <h4 align="center">
 Available for Android.
