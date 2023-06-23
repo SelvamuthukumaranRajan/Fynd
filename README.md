@@ -2,12 +2,18 @@
 Fynd
 </h2>
 
-<h3 align="center">
+<h4 align="center">
     1.Developed using MVVM and Material theme.
+</h4>
+<h4>
     2.App contains home screen with product list and search feature.
+</h4>
+<h4>
     3.App contains add product screen with product list.
+</h4>
+<h4>
     4.Used retrofit for accessing API.
-</h3>
+</h4>
 
 <h3 align="center">
 Simple product listing app with MVVM and Material theme
