@@ -14,7 +14,6 @@ class FyndSplashScreen : AppCompatActivity() {
         splashScreenBinding = ActivitySplashScreenBinding.inflate(layoutInflater)
         setContentView(splashScreenBinding.root)
 
-        // Start the main activity after a delay
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, FyndHomeScreen::class.java))
             finish()

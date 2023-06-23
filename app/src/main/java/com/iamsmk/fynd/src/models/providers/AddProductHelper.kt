@@ -65,7 +65,7 @@ class AddProductHelper {
             }
 
             override fun onFailure(call: Call<AddProduct?>, t: Throwable) {
-                Log.e("TAG", "Got error : " + t.localizedMessage)
+                Log.e("APIError", "Got error : " + t.localizedMessage)
             }
         })
         return addProductResponse

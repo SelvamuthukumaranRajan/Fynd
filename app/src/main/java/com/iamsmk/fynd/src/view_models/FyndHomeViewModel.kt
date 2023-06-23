@@ -42,13 +42,6 @@ class FyndHomeViewModel : ViewModel() {
                 }
             }
         }
-
-//        if (filteredList.isEmpty()) {
-//
-//        } else {
-//            adapter.updateDataSet(filteredList)
-//        }
-
         return MutableLiveData(filteredList)
     }
 

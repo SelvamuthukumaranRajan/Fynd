@@ -1,7 +1,5 @@
 package com.iamsmk.fynd.src.view_models
 
-import android.content.Intent
-import android.provider.MediaStore
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.iamsmk.fynd.src.models.AddProduct

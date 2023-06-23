@@ -160,24 +160,6 @@ class FyndAddProduct : AppCompatActivity() {
                 }
             }
         }
-//        addProductBinding.actProductType.addTextChangedListener {
-//            object : TextWatcher {
-//                override fun afterTextChanged(s: Editable?) {
-//                }
-//
-//                override fun beforeTextChanged(
-//                    s: CharSequence?,
-//                    start: Int,
-//                    count: Int,
-//                    after: Int
-//                ) {
-//                }
-//
-//                override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-//                    addProductBinding.actProductType.error = null
-//                }
-//            }
-//        }
     }
 
     private fun sanitizeUserInput(
@@ -197,7 +179,6 @@ class FyndAddProduct : AppCompatActivity() {
             addProductBinding.etProductTax.error = "Please enter product tax"
             false
         } else if (productType.isNullOrEmpty()) {
-//            addProductBinding.actProductType.error = "Please select product type?"
             Toast.makeText(this, "Please select product type", Toast.LENGTH_SHORT).show();
             false
         } else {

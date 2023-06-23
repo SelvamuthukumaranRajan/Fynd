@@ -1,9 +1,7 @@
 package com.iamsmk.fynd.src.models.providers
 
 import android.util.Log
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.iamsmk.fynd.src.models.AddProduct
 import com.iamsmk.fynd.src.models.ProductDetails
 import com.iamsmk.fynd.src.utils.retrofit.FyndAPI
 import com.iamsmk.fynd.src.utils.retrofit.FyndAPIClient
@@ -27,7 +25,7 @@ class ProductsProvider {
             }
 
             override fun onFailure(call: Call<ArrayList<ProductDetails>?>, t: Throwable) {
-                Log.e("TAG", "Got error : " + t.localizedMessage)
+                Log.e("APIError", "Got error : " + t.localizedMessage)
             }
         })
         return productsList
