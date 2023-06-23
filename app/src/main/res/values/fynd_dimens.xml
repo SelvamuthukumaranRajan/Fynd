@@ -1,0 +1,116 @@
+<resources>
+
+    <dimen name="editText_height">55dp</dimen>
+    <dimen name="cardView_height">55dp</dimen>
+    <dimen name="searchView_height">55dp</dimen>
+    <dimen name="button_height">55dp</dimen>
+    <dimen name="addImageButton_height">200dp</dimen>
+    <dimen name="button_width">65dp</dimen>
+    <dimen name="toolbar_height">65dp</dimen>
+    <dimen name="buyButton_height">45dp</dimen>
+
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+
+    <dimen name="margin_top_5">5dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="margin_top_40">40dp</dimen>
+    <dimen name="margin_top_50">50dp</dimen>
+    <dimen name="margin_top_60">60dp</dimen>
+
+    <dimen name="margin_right_5">5dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="margin_right_20">20dp</dimen>
+    <dimen name="margin_right_30">30dp</dimen>
+    <dimen name="margin_right_40">40dp</dimen>
+    <dimen name="margin_right_50">50dp</dimen>
+    <dimen name="margin_right_60">60dp</dimen>
+
+    <dimen name="margin_bottom_5">5dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+    <dimen name="margin_bottom_20">20dp</dimen>
+    <dimen name="margin_bottom_30">30dp</dimen>
+    <dimen name="margin_bottom_40">40dp</dimen>
+    <dimen name="margin_bottom_50">50dp</dimen>
+    <dimen name="margin_bottom_60">60dp</dimen>
+    <dimen name="margin_bottom_70">70dp</dimen>
+    <dimen name="margin_bottom_80">80dp</dimen>
+    <dimen name="margin_bottom_90">90dp</dimen>
+    <dimen name="margin_bottom_100">100dp</dimen>
+
+    <dimen name="margin_left_5">5dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="margin_left_20">20dp</dimen>
+    <dimen name="margin_left_30">30dp</dimen>
+    <dimen name="margin_left_40">40dp</dimen>
+    <dimen name="margin_left_50">50dp</dimen>
+    <dimen name="margin_left_60">60dp</dimen>
+
+
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_30">30dp</dimen>
+    <dimen name="padding_40">40dp</dimen>
+    <dimen name="padding_50">50dp</dimen>
+    <dimen name="padding_60">60dp</dimen>
+
+    <dimen name="padding_top_5">5dp</dimen>
+    <dimen name="padding_top_10">10dp</dimen>
+    <dimen name="padding_top_20">20dp</dimen>
+    <dimen name="padding_top_30">30dp</dimen>
+    <dimen name="padding_top_40">40dp</dimen>
+    <dimen name="padding_top_50">50dp</dimen>
+    <dimen name="padding_top_60">60dp</dimen>
+
+    <dimen name="padding_right_5">5dp</dimen>
+    <dimen name="padding_right_10">10dp</dimen>
+    <dimen name="padding_right_20">20dp</dimen>
+    <dimen name="padding_right_30">30dp</dimen>
+    <dimen name="padding_right_40">40dp</dimen>
+    <dimen name="padding_right_50">50dp</dimen>
+    <dimen name="padding_right_60">60dp</dimen>
+
+    <dimen name="padding_bottom_5">5dp</dimen>
+    <dimen name="padding_bottom_10">10dp</dimen>
+    <dimen name="padding_bottom_20">20dp</dimen>
+    <dimen name="padding_bottom_30">30dp</dimen>
+    <dimen name="padding_bottom_40">40dp</dimen>
+    <dimen name="padding_bottom_50">50dp</dimen>
+    <dimen name="padding_bottom_60">60dp</dimen>
+
+    <dimen name="padding_left_5">5dp</dimen>
+    <dimen name="padding_left_10">10dp</dimen>
+    <dimen name="padding_left_20">20dp</dimen>
+    <dimen name="padding_left_30">30dp</dimen>
+    <dimen name="padding_left_40">40dp</dimen>
+    <dimen name="padding_left_50">50dp</dimen>
+    <dimen name="padding_left_60">60dp</dimen>
+
+    <dimen name="corner_radius_small">5dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
+
+    <dimen name="textSizeVerySmall">8sp</dimen>
+    <dimen name="textSizeAbsoluteSmall">10sp</dimen>
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeLarge">16sp</dimen>
+    <dimen name="textSizeAbsoluteLarge">18sp</dimen>
+    <dimen name="textSizeExtraLarge">24sp</dimen>
+    <dimen name="textSizeExtraExtraLarge">30sp</dimen>
+
+    <dimen name="searchView_elevation">25dp</dimen>
+    <dimen name="cardView_elevation">25dp</dimen>
+    <dimen name="productCard_elevation">15dp</dimen>
+    <dimen name="fab_elevation">25dp</dimen>
+
+    <dimen name="cardView_corner_radius">15dp</dimen>
+
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".src.views.FyndAddProduct">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_5"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            app:icon="@drawable/ic_back" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="@string/addProduct_title"
+            android:textSize="@dimen/textSizeExtraLarge" />
+    </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_10"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/productName_hint"
+                android:padding="@dimen/padding_5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_productName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/productPrice_hint"
+                android:padding="@dimen/padding_5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_productPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:inputType="numberDecimal" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/productTax_hint"
+                android:padding="@dimen/padding_5">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_productTax"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:inputType="numberDecimal" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/productType_hint"
+                android:padding="@dimen/padding_5">
+
+                <AutoCompleteTextView
+                    android:id="@+id/act_productType"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/editText_height"
+                    android:inputType="none" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ib_addImage"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/addImageButton_height"
+                android:layout_margin="@dimen/margin_20"
+                android:background="@drawable/dotted_border"
+                app:cornerRadius="8dp"
+                app:icon="@android:drawable/ic_input_add"
+                app:iconGravity="textTop"
+                app:iconSize="32dp"
+                app:iconTint="?attr/colorPrimary" />
+
+            <FrameLayout
+                android:id="@+id/fl_productImageLayout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/addImageButton_height"
+                android:layout_margin="@dimen/margin_20"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_productImage"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="@dimen/addImageButton_height"
+                    android:contentDescription="@string/productImage" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/ib_replaceImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/dotted_border"
+                    android:contentDescription="@string/add_product_image"
+                    app:iconGravity="textTop"
+                    app:cornerRadius="8dp"
+                    app:icon="@android:drawable/ic_input_add"
+                    app:iconSize="32dp"
+                    app:iconTint="?attr/colorPrimary" />
+
+            </FrameLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/bt_addProduct"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_margin="@dimen/margin_20"
+                android:fontFamily="@font/roboto_bold"
+                android:text="@string/bt_addProduct"
+                android:textSize="@dimen/textSizeNormal" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

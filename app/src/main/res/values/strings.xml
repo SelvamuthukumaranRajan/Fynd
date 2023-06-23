@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fynd</string>
+    <string name="app_slogan">Shop till you drop \n without leaving your spot!</string>
+    <string name="home_title">Fynd!</string>
+    <string name="fab_desc">To Add Products</string>
+    <string name="searchProduct_hint">Search…</string>
+    <string name="productImage">Product Image</string>
+    <string name="addProduct_title">Add Product         </string>
+    <string name="productName_hint">Name</string>
+    <string name="productTax_hint">Tax</string>
+    <string name="productPrice_hint">Price</string>
+    <string name="productType_hint">Type</string>
+    <string name="bt_buy">BUY</string>
+    <string name="bt_addProduct">ADD PRODUCT</string>
+    <string name="add_product_image">Add Product Image</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".src.views.FyndHomeScreen">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingHorizontal="@dimen/padding_10"
+        android:paddingTop="@dimen/padding_top_5"
+        android:text="@string/home_title"
+        android:textSize="@dimen/textSizeExtraExtraLarge" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_greetingsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingHorizontal="@dimen/padding_10"
+        android:textSize="@dimen/textSizeLarge" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cv_searchProduct"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/searchView_height"
+        android:layout_margin="@dimen/margin_10"
+        app:cardCornerRadius="@dimen/cardView_corner_radius"
+        app:cardElevation="@dimen/cardView_elevation">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/sv_searchProduct"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@android:color/transparent"
+            app:queryHint="@string/searchProduct_hint" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_productList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_addProduct"
+            android:elevation="@dimen/cardView_elevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:contentDescription="@string/fab_desc"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+    </FrameLayout>
+
+</LinearLayout>
